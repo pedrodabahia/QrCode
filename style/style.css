@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    overflow-x: hidden;
+    
+}
+header{
+    position:fixed;
+    top: 0vw;
+    left: 0vw;
+    height: 10vw;
+    width: 90vw;
+    padding: 5vw 5vw;
+    z-index: 3;
+    z-index: 10;
+
+}
+header .logo{
+    width: 100%;
+}
+header .logo img{
+    height: 15vw;
+    position: absolute;
+    top: 3vw;
+    right: 5vw;
+}
+
+.banner{
+    background-image: url(../img/textura_banner01.png);
+    background-size: 100% 100%;
+    padding: 20vw 0vw 0vw 0vw;
+}
+.banner .titulo img{
+    width: 47vw;
+    margin: 5vw 26.5vw;
+}
+.banner .fruta img{
+    width: 80vw;
+    margin: 5vw 10vw;
+}
+.banner .conteudo{
+    text-align: center;
+}
+.banner .conteudo h1{
+    width: 40vw;
+    display: inline-block;
+    color: green;
+}
+.banner .conteudo h1#numero{
+    font-size: 30vw;
+}
+.banner .conteudo h1#titulo{
+    font-size: 8vw;
+    margin-left: -7vw;
+    line-height: 6vw;
+    text-align: left;
+    position:relative;
+    top: -2vw;
+}
+.banner .conteudo .lista{
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    margin-top: 5vw;
+}
+.banner .conteudo .lista ul{
+    height: 40vw;
+    width: 47vw;
+    margin: 0 1.5vw;
+    text-align: left;
+}
+.banner .conteudo .lista ul li{
+    
+    font-size: 3.6vw;
+    margin-top: 1.3vw;
+    padding-left: 6.1vw;
+    list-style:none;
+    background-image: url(../img/icon.png);
+    background-size:5vw;
+    background-repeat: no-repeat;
+    background-position: 0vw center;
+}
+.segundoConteudo{
+    text-align: center;
+    background-image: url(../img/textura_banner02.png);
+    padding: 10vw 0;
+}
+.segundoConteudo h1{
+    display: inline-block;
+}
+.segundoConteudo h1#numero{
+    font-size: 30vw;
+    color: #edde1f;
+}
+.segundoConteudo h1#titulo{
+    font-size: 8vw;
+    margin-left:-1vw;
+    line-height: 6vw;
+    text-align: left;
+    width: 42vw;
+    position:relative;
+    top: -3vw;
+    color: white
+}
+
+.segundoConteudo .receitas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.6vw;
+}
+
+.segundoConteudo .receitas .box {
+    width: 40vw;
+    margin-top: 3vw;
+    color: white;
+
+}
+
+.segundoConteudo .receitas #primeiraBox{
+    background-image: url(../img/doceBanana.webp);
+    background-size: 100%;
+    background-repeat: no-repeat ;
+}
+.segundoConteudo .receitas #segundaBox{
+    background-image: url(../img/bolinhoDeBanana.avif);
+    background-size: 100%;
+    background-repeat: no-repeat ;
+}
+.segundoConteudo .receitas #terceiraBox{
+    background-image: url(../img/doceBanana.webp);
+    background-size: 100%;
+    background-repeat: no-repeat ;
+}
+.segundoConteudo .receitas #quartaBox{
+    background-image: url(../img/doceBanana.webp);
+    background-size: 100%;
+    background-repeat: no-repeat ;  
+}
+
+
+.segundoConteudo .receitas .box .receitaImage{
+    padding:10vw 0;
+    width: 100%;
+    background-color: rgb(220,220,220);
+}
+.segundoConteudo .receitas .box button{
+    margin-top: -5vw;
+    background-color:#edde1f;
+    border: none;
+    border-radius:1vw;
+    width: 25vw;
+    height:7vw;
+    font-size: 2.5vw;
+    color: green;
+}
+
+
+footer{
+    height: 20vw;
+    font-size: 1.1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #630000;
+
+}
+footer .logo img{
+    
+    height: 10vw;
+    display: block;
+    margin: 0 auto;
+}
+footer .links{
+    display: block;
+    font-size: 1.27vw;
+    width: 60vw;
+    height: 8vw;
+    color: white;
+    margin: 0vw;
+    margin-bottom: -2vw;
+    text-align: center;
+}
+footer .links ul{
+    display: none;
+}
+footer .links ul:last-child{
+    display: block;
+}
+footer .links ul a{
+    color: #ffb400;
+    text-decoration: none;
+    cursor: pointer;
+}
+
