@@ -39,7 +39,7 @@ header .logo img{
 }
 
 .banner{
-    background-image: url(../img/textura_banner01.png);
+    background-image: url(../img/textura_banner01.webp);
     background-size: 100% 100%;
     padding: 20vw 0vw 0vw 0vw;
 }
@@ -65,7 +65,7 @@ header .logo img{
 }
 .banner .conteudo h1#titulo{
     text-transform: uppercase;
-    font-size: 6vw;
+    font-size: 5.5vw;
     font-family: "sora extra";
     margin-left: -4vw;
     line-height: 6vw;
@@ -93,14 +93,14 @@ header .logo img{
     margin-top: 1.3vw;
     padding-left: 6.1vw;
     list-style:none;
-    background-image: url(../img/icon.png);
+    background-image: url(../img/icon.webp);
     background-size:3.5vw;
     background-repeat: no-repeat;
     background-position: 0vw center;
 }
 .segundoConteudo{
     text-align: center;
-    background-image: url(../img/textura_banner02.png);
+    background-image: url(../img/textura_banner02.webp);
     background-size: 100%;
     padding: 10vw 0;
 }
@@ -150,18 +150,18 @@ header .logo img{
     background-repeat: no-repeat ;
 }
 .segundoConteudo .receitas #segundaBox{
-    background-image: url(../img/bolinhoDeBanana.avif);
+    background-image: url(../img/bolinhoDeBanana.webp);
     background-size: 100%;
     background-repeat: no-repeat ;
 }
 .segundoConteudo .receitas #terceiraBox{
-    background-image: url(../img/coockie.jpg);
+    background-image: url(../img/coockie.webp);
     background-size: 130%;
     background-position: -5vw 0vw;
     background-repeat: no-repeat ;
 }
 .segundoConteudo .receitas #quartaBox{
-    background-image: url(../img/vitamina.jpeg);
+    background-image: url(../img/vitamina.webp);
     background-size: 100%;
     background-repeat: no-repeat ;  
 }
